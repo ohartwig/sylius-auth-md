@@ -1,0 +1,49 @@
+{#
+    SPDX-FileCopyrightText: 2026 Kai Ole Hartwig
+    SPDX-License-Identifier: MIT
+
+    /auth.md — agent registration instructions.
+
+    The H1 must contain "auth.md": that is how a scanner recognises the
+    document. Sections come from the installed authentication methods.
+
+    Override in an application at
+    templates/bundles/KohSyliusAuthMdBundle/auth.md.twig.
+#}
+# auth.md
+
+Agent registration and authentication for **{{ channelName }}** ({{ context.baseUrl }}).
+
+Everything below is also available as machine-readable metadata:
+
+- `{{ context.url('/.well-known/oauth-protected-resource') }}` — the protected resource
+- `{{ context.url('/.well-known/oauth-authorization-server') }}` — endpoints and the `agent_auth` block
+
+{% for method in methods %}
+## {{ method.title }}
+{% if method.registerUri %}
+
+Register at `{{ method.registerUri }}`.
+{% endif %}
+
+{{ method.documentation }}
+{% if method.revocationUri %}
+
+Revoke at `{{ method.revocationUri }}`.
+{% endif %}
+{% endfor %}
+
+## Rate limits and etiquette
+
+Identify yourself with a descriptive `User-Agent`. Requests are rate limited per
+credential; back off on `429` and honour `Retry-After`.
+
+Read {{ context.url('/robots.txt') }} before crawling — it carries the Content
+Signal for this shop, which states whether the content may be indexed, used to
+answer at retrieval time, or used for training.
+{% if contactEmail %}
+
+## Contact
+
+Questions about agent access: {{ contactEmail }}
+{% endif %}
