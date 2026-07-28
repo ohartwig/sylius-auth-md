@@ -1,3 +1,15 @@
+## [1.1.0](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.0.0...v1.1.0) (2026-07-28)
+
+### :sparkles: Features
+
+* add REUSE-compliant licensing metadata and contributor docs ([2684013](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/2684013cc46c39310d2f7c57eb11a3f9b64d75f1))
+
+### :repeat: Chores
+
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v1.24.2 ([82c78ee](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/82c78ee43a6008411fcf756782427b0d651d28df))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v1.25.0 ([9d68ebf](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/9d68ebfd9791e330109775c45e320189f8c014ec))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v1.25.1 ([9746b33](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/9746b3307269f4b38b3c6927d582672e2097154d))
+
 ## 1.0.0 (2026-07-28)
 
 ### :sparkles: Features
