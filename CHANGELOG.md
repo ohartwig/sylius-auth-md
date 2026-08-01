@@ -1,3 +1,17 @@
+## [1.1.2](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.1...v1.1.2) (2026-08-01)
+
+### :bug: Fixes
+
+* **phpstan:** resolve both level-8 findings without suppressions ([cfb77b6](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/cfb77b66df89e36e98bb07f40e670a407de6187d))
+
+### :zap: Refactor
+
+* **phpstan:** use the shared level-8 standard ([e07cc34](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/e07cc341c5408f3838f3c72e94351a00e5d248df))
+
+### :repeat: Chores
+
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v1.32.2 ([957dd88](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/957dd8846766aefbc862b1866c704bde654a8f20))
+
 ## [1.1.1](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.0...v1.1.1) (2026-08-01)
 
 ### :repeat: Chores
