@@ -1,3 +1,13 @@
+## [1.1.5](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.4...v1.1.5) (2026-08-12)
+
+### :bug: Fixes
+
+* **deps:** update dependency php to ^8.5.9 ([f6165f9](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/f6165f98ff2504fe65569744e15680b9e5847201))
+
+### :repeat: Chores
+
+* **deps:** update phpstan packages ([4c5dfcf](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/4c5dfcfeab953640a564bc61c9d38f1e4acba39f))
+
 ## [1.1.4](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.3...v1.1.4) (2026-08-12)
 
 ### :bug: Fixes
