@@ -1,3 +1,26 @@
+## [1.1.4](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.3...v1.1.4) (2026-08-12)
+
+### :bug: Fixes
+
+* **deps:** update dependency sylius/sylius to ^2.0.18 [security] ([cfdc886](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/cfdc886f4bccdbe79a125006b00b799ca84a53af))
+* **deps:** update dependency twig/twig to ^3.11.2 [security] ([cbcd672](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/cbcd6720d608714142873b5016993bfcf93bc82d))
+
+### :white_check_mark: Tests
+
+* **config:** cover the auth.md bundle configuration ([944a6c5](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/944a6c5f50654752cfd57fbfc072704880bde9dd))
+
+### :repeat: Continuous Integrations
+
+* follow the composed pipeline on [@1](https://git.ole-hartwig.eu/1) instead of an exact pin ([3a76aea](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/3a76aead4bdd8e18133db5a0dafe106043d520ba))
+
+### :repeat: Chores
+
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v1.36.5 ([dd42fb7](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/dd42fb7d4d4083ba485fb4578e073dc30a4d40dd))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v1.36.6 ([e39ee9d](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/e39ee9dbb7ae0fa2957b253c9391cbff9f130b2d))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v1.36.8 ([f69c40f](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/f69c40f83b8e72fb7a0b2798ab13f9794fa8b2bc))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v1.36.9 ([51e3a1a](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/51e3a1ad190814cbd6ca859a5e7598375464c567))
+* **deps:** update dependency phpunit/phpunit to ^11.5.50 [security] ([3128139](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/3128139a69fb9691b73b90acbc2d8da809961c04))
+
 ## [1.1.3](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.2...v1.1.3) (2026-08-03)
 
 ### :repeat: Chores
