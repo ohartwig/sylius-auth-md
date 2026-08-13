@@ -1,3 +1,14 @@
+## [1.1.6](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.5...v1.1.6) (2026-08-13)
+
+### :bug: Fixes
+
+* **deps:** update dependency sylius/sylius to ^2.2.8 ([1ccba16](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/1ccba160c27694587fb6a0d944ff0c6a75c6d560))
+* **deps:** update dependency twig/twig to ^3.28.0 ([73a2031](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/73a20313b8afa09eb5895dec886bf323b7485afc))
+
+### :repeat: Chores
+
+* **deps:** update dependency phpunit/phpunit to ^11.5.56 ([01b640e](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/01b640ea8f65eff6aae103962c8b73594435686e))
+
 ## [1.1.5](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.4...v1.1.5) (2026-08-12)
 
 ### :bug: Fixes
