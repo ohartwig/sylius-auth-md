@@ -1,3 +1,9 @@
+## [1.1.7](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.6...v1.1.7) (2026-08-14)
+
+### :bug: Fixes
+
+* allow the infection extension installer plugin ([f3835c0](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/f3835c05486b62471f19c80210f9093d6a088416))
+
 ## [1.1.6](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.5...v1.1.6) (2026-08-13)
 
 ### :bug: Fixes
