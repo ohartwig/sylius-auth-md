@@ -1,3 +1,9 @@
+## [1.1.16](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.15...v1.1.16) (2026-09-03)
+
+### :bug: Fixes
+
+* **deps:** update dependency sylius/sylius to ^2.2.9 ([2d67fc0](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/2d67fc0061eab6349900f179a4339ede80ea997c))
+
 ## [1.1.15](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.14...v1.1.15) (2026-09-02)
 
 ### :repeat: Chores
