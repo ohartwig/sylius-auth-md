@@ -53,7 +53,7 @@ The H1 contains `auth.md`, which is how scanners recognise the document.
 
 ## Override the template
 
-```
+```text
 templates/bundles/KohSyliusAuthMdBundle/auth.md.twig
 ```
 
