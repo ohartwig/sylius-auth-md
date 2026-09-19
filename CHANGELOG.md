@@ -1,3 +1,9 @@
+## [1.1.20](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.19...v1.1.20) (2026-09-19)
+
+### :bug: Fixes
+
+* **deps:** update dependency twig/twig to ^3.29.0 ([bbaf7da](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/bbaf7dac4485d6cadfd6b98f75ab4840d85c6c4d))
+
 ## [1.1.19](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.18...v1.1.19) (2026-09-14)
 
 ### :bug: Fixes
