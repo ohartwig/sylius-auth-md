@@ -1,3 +1,9 @@
+## [1.1.22](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.21...v1.1.22) (2026-09-26)
+
+### :bug: Fixes
+
+* **deps:** update dependency php to ^8.5.11 ([528c2e1](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/528c2e1c9a9c0cfc7b46262123c8ff1937499313))
+
 ## [1.1.21](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.20...v1.1.21) (2026-09-24)
 
 ### :repeat: Chores
