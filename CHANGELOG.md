@@ -1,3 +1,15 @@
+## [1.1.28](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.27...v1.1.28) (2026-10-04)
+
+### :bug: Fixes
+
+* **deps:** accept Sylius 2.2.9 again ([64f8f90](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/64f8f90eb554ee4e36edd24dc36b0c652ac17809))
+
+### :repeat: Continuous Integrations
+
+* follow composed-default-pipelines on the rolling major tag ([b17fa6f](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/b17fa6f83c6fc40c7d4cc3b4b41d6c963c5a4b75))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v2.21.19 ([cf0b4fc](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/cf0b4fcaf59b96405b8e2a4dac4353a156fcd5b0))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v2.21.17 ([d4c4502](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/d4c4502448b0aeab401908ab1e07157f5fee8d28))
+
 ## [1.1.27](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.26...v1.1.27) (2026-09-30)
 
 ### :bug: Fixes
