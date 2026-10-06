@@ -1,3 +1,9 @@
+## [1.1.31](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.30...v1.1.31) (2026-10-06)
+
+### :repeat: Chores
+
+* **deps:** update dependency phpunit/phpunit to ^11.5.57 ([2568816](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/25688165c3ff0974c77420ad91f1461a231ce4f7))
+
 ## [1.1.30](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.29...v1.1.30) (2026-10-05)
 
 ### :repeat: Chores
