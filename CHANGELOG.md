@@ -1,3 +1,10 @@
+## [1.1.34](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.33...v1.1.34) (2026-10-13)
+
+### :repeat: Chores
+
+* **reuse:** annotate the tooling files the mirror strips ([800d43c](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/800d43c046d443c12f8de9781f6e1bff7ff7b78d))
+* publish to GitHub and Packagist ([7d98ae9](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/7d98ae9e47b8f68110cbae6bf2ad9252072d7738))
+
 ## [1.1.33](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.32...v1.1.33) (2026-10-09)
 
 ### :repeat: Chores
