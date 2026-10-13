@@ -1,6 +1,6 @@
 {
     "name": "koh/sylius-auth-md",
-    "description": "Serves /auth.md \u2014 agent registration instructions rendered from the installed authentication methods.",
+    "description": "Serves /auth.md — agent registration instructions rendered from the installed authentication methods.",
     "type": "sylius-bundle",
     "license": "MIT",
     "keywords": [
@@ -18,8 +18,9 @@
     ],
     "homepage": "https://ole-hartwig.eu/open-source/sylius-agent-ready",
     "support": {
-        "issues": "https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/-/issues",
-        "source": "https://github.com/ole-hartwig/sylius-auth-md"
+        "issues": "https://github.com/ohartwig/sylius-auth-md/issues",
+        "source": "https://github.com/ohartwig/sylius-auth-md",
+        "security": "https://github.com/ohartwig/sylius-auth-md/blob/main/SECURITY.md"
     },
     "require": {
         "koh/sylius-agent-contracts": "^1.1",
