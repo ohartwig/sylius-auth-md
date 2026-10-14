@@ -1,3 +1,9 @@
+## [1.1.35](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.34...v1.1.35) (2026-10-14)
+
+### :repeat: Chores
+
+* **repo-templates:** sync ([3b692e4](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/3b692e4035e7aed303274e5b696b756417c8838f))
+
 ## [1.1.34](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.33...v1.1.34) (2026-10-13)
 
 ### :repeat: Chores
