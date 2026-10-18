@@ -1,3 +1,9 @@
+## [1.1.37](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.36...v1.1.37) (2026-10-18)
+
+### :bug: Fixes
+
+* admit PHP 8.3 and test the floor on it ([3fe772b](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/3fe772b544fc973304b5a592f34a73980e8d9389))
+
 ## [1.1.36](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.35...v1.1.36) (2026-10-16)
 
 ### :repeat: Chores
