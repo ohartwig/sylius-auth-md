@@ -1,3 +1,9 @@
+## [1.1.39](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.38...v1.1.39) (2026-10-29)
+
+### :bug: Fixes
+
+* **template:** state rate limits only where a method enforces them ([089714b](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/089714b61c86d2d5da28ae78e4139a69d5212047))
+
 ## [1.1.38](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.37...v1.1.38) (2026-10-25)
 
 ### :repeat: Chores
