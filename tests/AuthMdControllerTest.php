@@ -102,6 +102,27 @@ final class AuthMdControllerTest extends TestCase
         self::assertCount(0, iterator_to_array($without->getAgentEndpoints($context)));
     }
 
+    /**
+     * AUD-068-F01: the fixed text once promised a limit "per credential" on
+     * every installation, whatever it enforced. Limits are now stated only by
+     * the method that enforces them.
+     */
+    public function testTheTemplatePromisesNoRateLimitOfItsOwn(): void
+    {
+        $document = $this->render([$this->descriptor('oauth2', 'OAuth 2.1', 'Run the code flow.')]);
+
+        self::assertStringNotContainsString('per credential', $document);
+        self::assertStringContainsString('`429`', $document);
+        self::assertStringContainsString('Retry-After', $document);
+    }
+
+    public function testAMethodsOwnRateLimitIsPrinted(): void
+    {
+        $document = $this->render([$this->descriptor('oauth2', 'OAuth 2.1', "### Rate limits\n\n- `/_mcp`: 300 requests per 1 minute per credential.")]);
+
+        self::assertStringContainsString('300 requests per 1 minute per credential', $document);
+    }
+
     public function testBlankRunsAreCollapsed(): void
     {
         self::assertStringNotContainsString("\n\n\n", $this->render());

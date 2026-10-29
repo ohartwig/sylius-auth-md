@@ -7,6 +7,10 @@
     The H1 must contain "auth.md": that is how a scanner recognises the
     document. Sections come from the installed authentication methods.
 
+    The rate-limit note promises no limit of its own: a fixed sentence here
+    would be published whatever the installation enforces (AUD-068-F01).
+    Limits belong in the documentation of the method that enforces them.
+
     Override in an application at
     templates/bundles/KohSyliusAuthMdBundle/auth.md.twig.
 #}
@@ -35,8 +39,9 @@ Revoke at `{{ method.revocationUri }}`.
 
 ## Rate limits and etiquette
 
-Identify yourself with a descriptive `User-Agent`. Requests are rate limited per
-credential; back off on `429` and honour `Retry-After`.
+Identify yourself with a descriptive `User-Agent`. Where an endpoint is rate
+limited, the method above states the limit. On `429`, back off and honour
+`Retry-After`.
 
 Read {{ context.url('/robots.txt') }} before crawling — it carries the Content
 Signal for this shop, which states whether the content may be indexed, used to

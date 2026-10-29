@@ -58,8 +58,11 @@ templates/bundles/KohSyliusAuthMdBundle/auth.md.twig
 ```
 
 The default renders the heading, links to the machine-readable metadata, one
-section per method, a note on rate limits and a pointer at `/robots.txt` for the
-Content Signal.
+section per method, a note on `429` handling and a pointer at `/robots.txt`
+for the Content Signal. The default promises no rate limit of its own: each
+method's documentation states the limits it enforces (koh/sylius-mcp-oauth
+prints its configured `rate_limits`). An override should not add a limit the
+installation does not enforce.
 
 ## Decommission
 
