@@ -188,7 +188,7 @@ final class AuthMdControllerTest extends TestCase
     {
         $channel = $this->createMock(ChannelInterface::class);
         $channel->method('getCode')->willReturn('WEB_DE');
-        $channel->method('getName')->willReturn('Tabak Budde');
+        $channel->method('getName')->willReturn('Example Shop');
 
         return new AgentContext($channel, 'https://shop.example.com', 'de_DE', ['de_DE']);
     }
