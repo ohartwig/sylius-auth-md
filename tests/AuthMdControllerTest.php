@@ -53,7 +53,7 @@ final class AuthMdControllerTest extends TestCase
         self::assertStringContainsString('Sign your requests.', $body);
     }
 
-    public function testRegistrationAndRevocationUrisAreSurfaced(): void
+    public function testIdentityAndClaimEndpointsAreSurfaced(): void
     {
         $body = $this->render([
             $this->descriptor(
@@ -61,12 +61,12 @@ final class AuthMdControllerTest extends TestCase
                 'OAuth 2.1',
                 'doc',
                 'https://shop.example.com/mcp/oauth/register',
-                'https://shop.example.com/mcp/oauth/revoke',
+                'https://shop.example.com/mcp/oauth/claim',
             ),
         ]);
 
         self::assertStringContainsString('https://shop.example.com/mcp/oauth/register', $body);
-        self::assertStringContainsString('https://shop.example.com/mcp/oauth/revoke', $body);
+        self::assertStringContainsString('https://shop.example.com/mcp/oauth/claim', $body);
     }
 
     public function testPointsAtTheMachineReadableMetadata(): void
@@ -153,15 +153,15 @@ final class AuthMdControllerTest extends TestCase
         string $id,
         string $title,
         string $documentation,
-        ?string $registerUri = null,
-        ?string $revocationUri = null,
+        ?string $identityEndpoint = null,
+        ?string $claimEndpoint = null,
     ): AuthMethodDescriptorInterface {
         $descriptor = new AuthMethodDescriptor(
             id: $id,
             title: $title,
             documentation: $documentation,
-            registerUri: $registerUri,
-            revocationUri: $revocationUri,
+            identityEndpoint: $identityEndpoint,
+            claimEndpoint: $claimEndpoint,
         );
 
         return new class($descriptor) implements AuthMethodDescriptorInterface {

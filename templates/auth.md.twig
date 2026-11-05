@@ -25,15 +25,15 @@ Everything below is also available as machine-readable metadata:
 
 {% for method in methods %}
 ## {{ method.title }}
-{% if method.registerUri %}
+{% if method.identityEndpoint %}
 
-Register at `{{ method.registerUri }}`.
+Register at `{{ method.identityEndpoint }}`.
 {% endif %}
 
 {{ method.documentation }}
-{% if method.revocationUri %}
+{% if method.claimEndpoint %}
 
-Revoke at `{{ method.revocationUri }}`.
+Claim an agent identity at `{{ method.claimEndpoint }}`.
 {% endif %}
 {% endfor %}
 
