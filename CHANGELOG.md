@@ -1,3 +1,9 @@
+## [1.1.42](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.41...v1.1.42) (2026-11-05)
+
+### :bug: Fixes
+
+* read the auth.md v0.6.0 descriptor properties in the /auth.md template ([a9ff7af](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/a9ff7af77df106058e0d429202bb077e41372861))
+
 ## [1.1.41](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.40...v1.1.41) (2026-11-04)
 
 ### :bug: Fixes
