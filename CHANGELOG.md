@@ -1,3 +1,10 @@
+## [1.1.43](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.42...v1.1.43) (2026-11-14)
+
+### :repeat: Chores
+
+* **deps:** update dependency phpunit/phpunit to ^11.5.58 ([b3a108d](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/b3a108dd4909d070cb9c62bf9b24b5885fb8b211))
+* **deps:** update dependency phpstan/phpstan to ^2.3.5 ([9d1ff37](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/9d1ff3766e95a9671e649bb965fa2507c6a3cf60))
+
 ## [1.1.42](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.41...v1.1.42) (2026-11-05)
 
 ### :bug: Fixes
