@@ -1,3 +1,9 @@
+## [1.1.45](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.44...v1.1.45) (2026-11-17)
+
+### :bug: Fixes
+
+* **composer:** point homepage at the package page ([3871623](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/3871623e6dc2b0902d64cf7289a00e3e0a44e13b))
+
 ## [1.1.44](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.43...v1.1.44) (2026-11-17)
 
 ### :repeat: Chores
