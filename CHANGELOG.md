@@ -1,3 +1,9 @@
+## [1.1.46](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.45...v1.1.46) (2026-11-20)
+
+### :repeat: Chores
+
+* **deps:** update dependency phpstan/phpstan to ^2.3.7 ([5db403c](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/commit/5db403c670b46e1cac3eb8f5f2df1735a1c563fc))
+
 ## [1.1.45](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-auth-md/compare/v1.1.44...v1.1.45) (2026-11-17)
 
 ### :bug: Fixes
